@@ -10,7 +10,7 @@ public class MainConfig {
 	@Bean
 	public ViewResolver resolveView() {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-		resolver.setPrefix("/WEB-INF/jsps");
+		resolver.setPrefix("/WEB-INF/jsps/");
 		resolver.setSuffix(".jsp");
 		return resolver;
 	}
